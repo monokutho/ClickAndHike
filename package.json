@@ -1,0 +1,17 @@
+{
+  "name": "clickandhike",
+  "version": "1.0.0",
+  "description": "Website for a hiking app",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hike"
+  ],
+  "author": "Santiago Gonzalez",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
