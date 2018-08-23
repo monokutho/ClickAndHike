@@ -9,7 +9,7 @@
   "keywords": [
     "hike"
   ],
-  "author": "Santiago Gonzalez",
+  "author": "Santiago Gonzalez <santiago.gonzalez.erazo@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "gulp": "^3.9.1"
