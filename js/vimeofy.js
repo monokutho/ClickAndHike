@@ -46,12 +46,9 @@
 	 */
 	function parseUrl( options ){
 
-		var url 		= options.url.replace( /(?:https?:\/\/)?(?:www\.)?(?:vimeo\.com)\/(.+)/g, 'https://player.vimeo.com/video/$1' );
-		var color		= options.color.replace( /^#/, '?color=' );
-		var autoplay	= options.autoplay ? '&amp;autoplay=1' : '&amp;autoplay=0';
-		var loop 		= options.loop ? '&amp;loop=1' : '&amp;loop=0';
+		var url 		= "https://player.vimeo.com/video/132244795";
 
-		return url + color + autoplay + loop;
+		return url;
 	}
 
 
@@ -69,7 +66,7 @@
 			// Declare player instance
 			vimeofy.$player = $( '<iframe frameborder="0" allowTransparency="true" style="background:transparent;" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>' );
 			vimeofy.$player.attr( 'src', vimeofy.url );
-            
+
 
 			// Append player
 			vimeofy.$element.append( vimeofy.$player );
@@ -85,7 +82,7 @@
 
 				vimeofy.resize();
 			});
-            
+
 
 			setTimeout( function(){
 
